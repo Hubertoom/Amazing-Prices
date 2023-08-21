@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header, footer {
+    align-items: center;
+    font-size: 1.2rem;
+}
+header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+main {
+    min-height: 75vh;
+    background-color: lightskyblue;
+}
+
+footer {
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    margin: 2rem;
+}
+
+#card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 25rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#section1 {
+    align-items: center;
+    text-align: center;
+}
+
+#section1 > p {
+    margin: auto 15rem 1rem 15rem;
+    align-self: center;
+    text-align: center;
+}
+
+.card-title {
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.card-text {
+    height: 2rem;
+}
+
+.card > img {
+    max-width: 18rem;
+    max-height:12rem;
+}
+
+.button {
+    width: 6rem;
+    margin-top: 1rem;
+    align-self: center;
+    border: 1px solid dodgerblue;
+    border-radius: .5rem;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: 600;
+    padding: .5rem;
+}
+
+.card-header {
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+}
