@@ -49,6 +49,10 @@ nav a {
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
+    background: rgb(170,170,170);
+    background: linear-gradient(107deg, rgba(170,170,170,0.4262838924632353) 0%,
+                rgba(211,211,211,1) 48%, rgba(224,224,224,1) 63%, rgba(246,246,246,1) 89%,
+                rgba(247,247,247,1) 90%, rgba(255,255,255,1) 100%);
 }
 
 #section1 {
