@@ -29,6 +29,7 @@ footer {
 a {
     text-decoration: none;
     color: black;
+    font-size: 2rem
 }
 
 nav a {
@@ -55,15 +56,18 @@ nav a {
                 rgba(247,247,247,1) 90%, rgba(255,255,255,1) 100%);
 }
 
-#section1 {
+#header-section {
     align-items: center;
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5rem;
 }
 
-#section1 > p {
+#header-section > p {
     margin: auto 15rem 1rem 15rem;
     align-self: center;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .card-title {
@@ -95,4 +99,39 @@ nav a {
 .card-header {
     border-bottom: 1px solid #000;
     border-radius: 10px;
+}
+
+#table-section {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#table-section > h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 80rem;
+    height: 35rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+th {
+    background: rgb(170,170,170);
+    background: linear-gradient(107deg, rgba(170,170,170,0.4262838924632353) 0%,
+    rgba(211,211,211,1) 48%, rgba(224,224,224,1) 63%, rgba(246,246,246,1) 89%,
+    rgba(247,247,247,1) 90%, rgba(255,255,255,1) 100%);
+}
+
+.skip {
+    background: transparent;
 }
