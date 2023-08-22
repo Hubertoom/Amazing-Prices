@@ -2,10 +2,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header, footer {
     align-items: center;
     font-size: 1.2rem;
+    background: rgb(170,170,170);
+    background: linear-gradient(107deg, rgba(170,170,170,0.4262838924632353) 0%,
+    rgba(211,211,211,1) 48%, rgba(224,224,224,1) 63%, rgba(246,246,246,1) 89%,
+    rgba(247,247,247,1) 90%, rgba(255,255,255,1) 100%);
 }
+
 header {
     min-height: 10vh;
     display: flex;
@@ -46,7 +52,7 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 18rem;
-    height: 25rem;
+    height: 32rem;
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
@@ -140,12 +146,22 @@ th {
 
 @media screen and (max-width: 725px ) {
 
-    header, footer {
-        font-size: 1.5rem;
-    }
-
     header {
         flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    #nav-brand {
+        font-size: 2rem;
+    }
+
+    header > nav {
+        padding-top: 1rem;
+
+    }
+
+    header > nav > a {
+        font-size: 1rem;
     }
 
     #card-section {
